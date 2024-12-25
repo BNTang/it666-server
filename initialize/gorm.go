@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"it666.com/global"
-	"it666.com/model/system"
+	"it666.chat/global"
+	"it666.chat/model/system"
 
 	"go.uber.org/zap"
 	"gorm.io/driver/mysql"

@@ -17,9 +17,9 @@ type SysUser struct {
 	// 用户昵称
 	NickName string `json:"nickName" gorm:"comment:用户昵称" example:"扣叮侠"`
 	// 用户头像
-	HeaderImg string `json:"headerImg" gorm:"default:/uploads/head.png;comment:用户头像" example:"https://www.it666.com/nj_header.jpg"`
+	HeaderImg string `json:"headerImg" gorm:"default:/uploads/head.png;comment:用户头像" example:"https://www.it666.chat/nj_header.jpg"`
 	// 用户邮箱
-	Email string `json:"email" gorm:"comment:用户邮箱" example:"admin@it666.com"`
+	Email string `json:"email" gorm:"comment:用户邮箱" example:"admin@it666.chat"`
 	// 用户手机号
 	Phone string `json:"phone" gorm:"comment:用户手机号" example:"18888888888"`
 	// 用户openid

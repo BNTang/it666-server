@@ -1,8 +1,8 @@
 package router
 
 import (
-	"it666.com/router/bbs"
-	"it666.com/router/system"
+	"it666.chat/router/bbs"
+	"it666.chat/router/system"
 )
 
 type RouterGroup struct {

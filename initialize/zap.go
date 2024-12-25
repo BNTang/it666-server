@@ -8,7 +8,7 @@ import (
 	"github.com/natefinch/lumberjack"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"it666.com/utils"
+	"it666.chat/utils"
 )
 
 /**

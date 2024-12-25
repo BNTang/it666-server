@@ -6,7 +6,7 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
-	"it666.com/global"
+	"it666.chat/global"
 )
 
 /*

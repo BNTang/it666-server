@@ -1,4 +1,4 @@
-module it666.com
+module it666.chat
 
 go 1.20
 

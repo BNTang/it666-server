@@ -5,7 +5,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
-	"it666.com/config"
+	"it666.chat/config"
 )
 
 var (

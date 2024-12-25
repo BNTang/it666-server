@@ -4,8 +4,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/validator/v10"
-	v1 "it666.com/api/v1"
-	systemReq "it666.com/model/system/request"
+	v1 "it666.chat/api/v1"
+	systemReq "it666.chat/model/system/request"
 )
 
 type UserRouter struct{}

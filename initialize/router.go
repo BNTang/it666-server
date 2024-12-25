@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"it666.com/global"
-	"it666.com/middleware"
-	"it666.com/router"
+	"it666.chat/global"
+	"it666.chat/middleware"
+	"it666.chat/router"
 )
 
 // 初始化总路由

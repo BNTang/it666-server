@@ -2,9 +2,9 @@
     "mysql": {
         "host": "127.0.0.1",
         "port": "3306",
-        "dbname": "it666_com",
+        "dbname": "it666_chat",
         "username": "root",
-        "password": "com.it666.www",
+        "password": "chat.it666.www",
         "config": "charset=utf8mb4&parseTime=True&loc=Local",
         "max-idle-conns": 10,
         "max-open-conns": 100,

@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"it666.com/config"
-	"it666.com/global"
+	"it666.chat/config"
+	"it666.chat/global"
 )
 
 // 放行所有跨域请求并放行所有 OPTIONS 方法

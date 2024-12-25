@@ -1,6 +1,6 @@
 package system
 
-import "it666.com/service"
+import "it666.chat/service"
 
 type ApiGroup struct {
 	UserApi

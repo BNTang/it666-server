@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-redis/redis/v8"
 	"go.uber.org/zap"
-	"it666.com/global"
+	"it666.chat/global"
 )
 
 func Redis() *redis.Client {

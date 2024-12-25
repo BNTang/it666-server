@@ -5,9 +5,9 @@ import (
 
 	uuid "github.com/satori/go.uuid"
 	"gorm.io/gorm"
-	"it666.com/global"
-	"it666.com/model/system"
-	"it666.com/utils"
+	"it666.chat/global"
+	"it666.chat/model/system"
+	"it666.chat/utils"
 )
 
 type UserService struct{}

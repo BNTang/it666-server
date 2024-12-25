@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"it666.com/global"
+	"it666.chat/global"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

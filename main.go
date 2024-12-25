@@ -1,8 +1,8 @@
 package main
 
 import (
-	"it666.com/global"
-	"it666.com/initialize"
+	"it666.chat/global"
+	"it666.chat/initialize"
 )
 
 /*

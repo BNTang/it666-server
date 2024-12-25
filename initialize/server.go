@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
-	"it666.com/global"
+	"it666.chat/global"
 )
 
 type server interface {

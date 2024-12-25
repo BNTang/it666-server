@@ -1,6 +1,6 @@
 package service
 
-import "it666.com/service/system"
+import "it666.chat/service/system"
 
 type ServiceGroup struct {
 	SystemServiceGroup system.ServiceGroup

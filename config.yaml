@@ -4,9 +4,9 @@
 mysql:
   host: '127.0.0.1'
   port: '3306'
-  dbname: 'it666_com'
+  dbname: 'it666_chat'
   username: 'root'
-  password: 'com.it666.www'
+  password: 'chat.it666.www'
   config: 'charset=utf8mb4&parseTime=True&loc=Local'
   max-idle-conns: 10
   max-open-conns: 100
@@ -26,19 +26,19 @@ zap:
 # it666-server configuration
 system:
   port: 8090
-  salt: it666.com
+  salt: it666.chat
   path: uploads
 # cors configuration
 cors:
   mode: whitelist
   whitelist:
-    - allow-origin: it666.com
+    - allow-origin: it666.chat
       allow-methods: GET, POST, PUT, DELETE
       allow-headers: content-type
       expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers,
         Content-Type
       allow-credentials: true
-    - allow-origin: itzb.com
+    - allow-origin: itzb.chat
       allow-methods: GET, POST, PUT, DELETE
       allow-headers: content-type
       expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers,

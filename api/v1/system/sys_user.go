@@ -2,10 +2,10 @@ package system
 
 import (
 	"github.com/gin-gonic/gin"
-	"it666.com/model/common/response"
-	systemModel "it666.com/model/system"
-	systemReq "it666.com/model/system/request"
-	"it666.com/utils"
+	"it666.chat/model/common/response"
+	systemModel "it666.chat/model/system"
+	systemReq "it666.chat/model/system/request"
+	"it666.chat/utils"
 )
 
 type UserApi struct{}
