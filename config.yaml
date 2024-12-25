@@ -1,0 +1,46 @@
+# mysql connect configuration
+# mysql参考: https://github.com/go-sql-driver/mysql#dsn-data-source-name
+# mysql参考: https://gorm.io/docs/connecting_to_the_database.html
+mysql:
+  host: '127.0.0.1'
+  port: '3306'
+  dbname: 'it666_com'
+  username: 'root'
+  password: 'com.it666.www'
+  config: 'charset=utf8mb4&parseTime=True&loc=Local'
+  max-idle-conns: 10
+  max-open-conns: 100
+  log-mode: 'info'
+  log-zap: false
+# redis connect configuration
+redis:
+  db: 0
+  host: '127.0.0.1'
+  port: '6379'
+  password: ''
+# zap logger configuration
+zap:
+  format: 'console'
+  director: 'log'
+  log-in-console: true
+# it666-server configuration
+system:
+  port: 8090
+  salt: it666.com
+  path: uploads
+# cors configuration
+cors:
+  mode: whitelist
+  whitelist:
+    - allow-origin: it666.com
+      allow-methods: GET, POST, PUT, DELETE
+      allow-headers: content-type
+      expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers,
+        Content-Type
+      allow-credentials: true
+    - allow-origin: itzb.com
+      allow-methods: GET, POST, PUT, DELETE
+      allow-headers: content-type
+      expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers,
+        Content-Type
+      allow-credentials: true

@@ -1,0 +1,20 @@
+{
+    "mysql": {
+        "host": "127.0.0.1",
+        "port": "3306",
+        "dbname": "it666_com",
+        "username": "root",
+        "password": "com.it666.www",
+        "config": "charset=utf8mb4&parseTime=True&loc=Local",
+        "max-idle-conns": 10,
+        "max-open-conns": 100,
+        "log-mode": "info",
+        "log-zap": false
+    },
+    "redis": {
+        "db": 0,
+        "host": "127.0.0.1",
+        "port": "6379",
+        "password": ""
+    }
+}
